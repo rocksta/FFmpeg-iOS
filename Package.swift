@@ -19,7 +19,7 @@ products += [
 
 let package = Package(
     name: "FFmpeg-iOS",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v13), .tvOS(.v13)],
     products: products,
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.3.0"),
